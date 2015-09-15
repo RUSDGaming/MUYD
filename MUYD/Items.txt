@@ -1,0 +1,19 @@
+Tools
+  Pickaxe
+  Mining Drill
+  Mining Laser
+  Shovel
+  Axe
+  Hammer
+  Back Pack
+
+Weapons
+  Sword
+  Gun
+  Bow
+  Crossbow
+
+Armor
+  Cloth
+  Iron/ various other metals
+  Shields

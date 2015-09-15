@@ -1,0 +1,16 @@
+Natural
+  Strength
+    -Increases your carry capacity as well as the damage you do with items
+  Agility
+    - Increases your speed
+  Endurance
+    - Increases how long you can mine for as well as your stamina recovery rate.
+
+Machine
+  You would slowly replace parts of your body with machine parts. Eventually you
+would replace your entire body with a machine and transfer your soul into it.
+
+Mutation
+  You would do some weird genetic experiments on yourself to mutate your self
+to become better faster stronger harder.   Things like increased endurance,
+ability to see in the dark, acid spit for dissolving rocks.
