@@ -2,7 +2,6 @@ Vehicles
   Wheelbarrow
   Mining Cart
   Dump Truck
-  BackHoe
+  Backhoe
   Drill Machine
-  One of th
-  
+  bucket wheel excavator

@@ -1,0 +1,46 @@
+Items should have some basic stats.
+
+Using the item more will make you more proficient in it.  I'm not sure if I want
+a cap on this rating. So sure you'll be able to one shot the end game rocks but
+the speed won't increase or you'll still only be able to hit 1 rock at a time.
+
+
+Skill // using the item will level up this skill
+Damage // how much it hurts monsters
+Mining // how much it hurts rocks
+Speed // the rate at which you can swing or use the item
+  unit is pause between swing in milliseconds
+Weight // idk if I'll actually have weight
+Encumbrance // how fast you can run or sprint while walking
+
+
+As well as using the item to level it up you can upgrade it.
+
+When putting numbers into things try not to use super low numbers.
+
+For example when making the first rock, if you want it to take 4 hits to break
+with a basic pick give it 40 health and give the pick 10 mining. This makes the
+numbers easier to tweak later down the road
+
+I haven't decided if I want to make certain things unbreakable unless you have
+a certain level.
+
+Tools
+  Pickaxe
+  Mining Drill
+  Mining Laser // has range can min multiple rows
+  Shovel
+  Axe
+  Hammer
+  Back Pack
+
+Weapons
+  Sword
+  Gun
+  Bow
+  Crossbow
+
+Armor
+  Cloth
+  Iron/ various other metals
+  Shields
