@@ -7,7 +7,7 @@ Natural
     - Increases how long you can mine for as well as your stamina recovery rate.
 
 // I feel like I might wait off on doing these until I have a solid game down.
-The could be good for dlc or 2nd play through's. 
+The could be good for dlc or 2nd play through's.
 
 Machine
   You would slowly replace parts of your body with machine parts. Eventually you
@@ -17,3 +17,7 @@ Mutation
   You would do some weird genetic experiments on yourself to mutate your self
 to become better faster stronger harder.   Things like increased endurance,
 ability to see in the dark, acid spit for dissolving rocks.
+
+
+As well as being able to upgrade the base stats you can equip various things to
+improve the character. 
