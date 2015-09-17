@@ -1,0 +1,17 @@
+A good part of the game will be spent in the caves.
+
+There will be several types of caves.
+
+The first type of cave will be a typical cave. When you go into the cave most
+of the cave will be blocked by impassible rocks.  You can mine these rocks, the
+rocks will have a chance to drop an item based on the type of rock it is.
+
+The caves will have random layouts.  There will be a ladder somewhere in the
+cave that will allow you to go deeper. As you go deeper the rocks will get
+harder, the enemies will get stronger and the drops will get better.
+
+https://en-us.reddit.com/r/gamedev/comments/3l2doe/dungeon_generator_in_your_browser/
+
+look at this for finding out how to make each level, I'm thinking each floor
+should have a small number of rooms. Each room will have a random amount of
+enemies, rocks and drops.

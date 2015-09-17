@@ -12,6 +12,7 @@ Speed // the rate at which you can swing or use the item
   unit is pause between swing in milliseconds
 Weight // idk if I'll actually have weight
 Encumbrance // how fast you can run or sprint while walking
+Energy Cost  // how much energy it cost to use the item.
 
 
 As well as using the item to level it up you can upgrade it.
@@ -44,3 +45,25 @@ Armor
   Cloth
   Iron/ various other metals
   Shields
+
+Random
+  dirt
+  gravel
+  stone
+  wood
+
+// metals and gems will have unprocessed and processed versions. You must
+process them to use them in recipes
+Metals
+  bronze
+  iron
+  titanium
+  coal
+
+Gems
+  ruby
+  sapphire
+  opal
+  green
+  purple
+  yellow

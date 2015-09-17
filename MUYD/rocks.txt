@@ -1,0 +1,7 @@
+Most of what you will be doing will be breaking rocks.  I'm gonna call them
+rocks because that is easy to spell and type.
+
+Each rock will have stats.
+
+Health
+Items[] // What the items it can drop.

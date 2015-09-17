@@ -6,6 +6,9 @@ Natural
   Endurance
     - Increases how long you can mine for as well as your stamina recovery rate.
 
+// I feel like I might wait off on doing these until I have a solid game down.
+The could be good for dlc or 2nd play through's. 
+
 Machine
   You would slowly replace parts of your body with machine parts. Eventually you
 would replace your entire body with a machine and transfer your soul into it.

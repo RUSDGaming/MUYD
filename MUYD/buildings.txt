@@ -1,0 +1,20 @@
+It will be important to build something at home, otherwise what is the point of
+digging if you can't show off your accomplishments.  You will also need to guard
+your stuff, can't have nothing attacking you.
+
+
+Walls
+  Gate
+
+Ore Processor
+
+Work shop // this is where you will build and upgrade things
+
+Gym // This is where you can train your character to increase his stats
+
+House // where you sleep and recover your health and stamina
+
+Storage // where you Store all of your item that you have collected from the
+mine.
+
+Mail Box // this is where you sell your items and buy new ones.
