@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 public class PlayerController : MonoBehaviour
 {
 
@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
 	private bool jump;
 	private CharacterController controller;
 
+	//public List<InventoryItem> items = new List<InventoryItem>();
+	public List<GameObject> items = new List<GameObject> ();
+
 
 	void Start ()
 	{
@@ -27,7 +30,7 @@ public class PlayerController : MonoBehaviour
 	void Update ()
 	{
 		//if (controller.isGrounded) {
-		Debug.Log ("update");
+		//Debug.Log ("update");
 		if (Input.GetButton ("Jump")) {
 			//Debug.Log ("got the jump button");
 			jump = true;
@@ -38,6 +41,11 @@ public class PlayerController : MonoBehaviour
 		vertical = Input.GetAxis ("Vertical");
 		//Debug.Log ("Horizontal" + horizontal);
 		//}
+	}
+
+	void Attack ()
+	{
+
 	}
 
 
@@ -64,6 +72,23 @@ public class PlayerController : MonoBehaviour
 		controller.Move (moveDirection * Time.fixedDeltaTime);
 		if (controller.isGrounded) {
 			moveDirection.y = 0;
+		}
+	}
+	public float GetDamage ()
+	{
+		// if can attack
+		return 10;
+	}
+
+	void OnTriggerEnter (Collider other)
+	{
+		if (other.gameObject.CompareTag ("Item")) {
+			SceneItem sceneItem = other.gameObject.GetComponent<SceneItem> ();
+			GameObject go = sceneItem.getInventoryItem ();
+			items.Add (go);
+			
+			GameObject.Destroy (other.gameObject);
+
 		}
 	}
 }

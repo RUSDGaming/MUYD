@@ -1,11 +1,11 @@
 Jan 1st 2016 Have a fully functional prototype read for kickstarter
 
 
--Set up Unity project
--Create a character controller
--Create rocks
--Let character break rocks
--let character pickup items
+X-Set up Unity project
+X-Create a character controller
+X-Create rocks
+X-Let character break rocks 
+X-let character pickup items
 -create a ui for displaying stamina health and other stats
 -create a ui for managing character inventory
 -create a system that upgrades your tools based on use
