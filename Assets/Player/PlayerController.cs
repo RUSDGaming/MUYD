@@ -20,27 +20,35 @@ public class PlayerController : MonoBehaviour
 	//public List<InventoryItem> items = new List<InventoryItem>();
 	public List<GameObject> items = new List<GameObject> ();
 
+	PlayerStats playerStats;
+
 
 	void Start ()
 	{
 		controller = GetComponent<CharacterController> ();
+		playerStats = GetComponent<PlayerStats> ();
 	}
 
 
 	void Update ()
 	{
-		//if (controller.isGrounded) {
-		//Debug.Log ("update");
-		if (Input.GetButton ("Jump")) {
-			//Debug.Log ("got the jump button");
+
+		if (Input.GetButton ("Jump")) {		
 			jump = true;
 		} else {
 			jump = false;
 		}
 		horizontal = Input.GetAxis ("Horizontal");
 		vertical = Input.GetAxis ("Vertical");
-		//Debug.Log ("Horizontal" + horizontal);
-		//}
+
+
+		if (Input.GetMouseButtonDown (0)) {
+			// use item
+			// limit atack speed
+			if (playerStats.currentStamina >= 10) {
+				playerStats.UseStamina (10);
+			}
+		}
 	}
 
 	void Attack ()
